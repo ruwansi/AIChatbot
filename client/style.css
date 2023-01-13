@@ -13,7 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 98vh;
   background: #343541;
 
   display: flex;
@@ -41,7 +41,7 @@ body {
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
-  display: none;
+  /*display: none;*/
 }
 
 .wrapper {
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #363b80;
+  background: #46474f;
 }
 
 .chat {
