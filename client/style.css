@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  padding: 5;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Calibri", sans-serif;
 }
@@ -40,7 +40,13 @@ body {
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
+
+  z-index: 9999; /* a high value to make it appear on top */
+  bottom: 0; /* will be fixed to the bottom */
+
 }  
+
+
 
 /* hides scrollbar */
 #chat_container::-webkit-scrollbar {
