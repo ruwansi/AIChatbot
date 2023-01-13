@@ -2,11 +2,9 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 5;
   box-sizing: border-box;
   font-family: "Calibri", sans-serif;
-  
-
 }
 
 body {
@@ -23,16 +21,15 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  
 }
 
 
 #chat_container {
-  flex: 1;
+  flex: 3;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
-  overflow-x: none;
   
   display: flex;
   flex-direction: column;
